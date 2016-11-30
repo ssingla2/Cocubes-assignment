@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 10px 150px;
+  border: 2px solid black;
+}
+
+header {
+  padding: 24px 0;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+}
+li:hover,.generateReport:hover,.cancel:hover,.refresh:hover,.save:hover,.close:hover{
+  cursor: pointer;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+div.openClose {
+  display: inline-block;
+  float: right;
+  margin-right: 19px;
+  margin-top: -8px;
+}
+
+span.link {
+  font-size: 45px;
+  margin-left: 23px;
+}
+
+.minus {
+  margin-right: 17px;
+}
+
+aside {
+  float: left;
+  height: inherit;
+  border-right: 2px solid #dcdcdc;
+}
+
+.container {
+  overflow: hidden;
+  height: 650px;
+  clear: both;
+}
+
+aside ul li {
+  padding: 15px 36px;
+  font-size: 18px;
+  font-family: Arial;
+  border-bottom: 3px solid #dcdcdc;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
+a:link,a:visited,a:hover,a:visited {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #00bfff;
+}
+
+.entryDetails {
+  float: left;
+  height: inherit;
+  width: 78%;
+}
+
+#skillMatrix,#login-form,#excel-form {
+      margin: 85px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    min-height: 450px;
+}
+
+#skillMatrix{
+  margin-right:60px;
+}
+form ul {
+  list-style-type: none;
+}
+
+form li label {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+#login-form ul {
+  float: right;
+  margin-right: 40px;
+}
+
+.entryDetails .profile-photo {
+  background: url("../images/profile.jpg");
+  height: 54px;
+  width: 55px;
+  display: inline-block;
+  background-size: contain;
+  border: 1px solid #dcdcdc;
+  background-repeat: no-repeat;
+}
+
+input.datetime {
+  width: 230px;
+  margin-left: 10px;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  
+  border-left: 60px solid green;
+}
+.entryDetails div.profile-photo {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.entryDetails .profile {
+  float: right;
+  margin-right: 17px;
+  margin-top: 8px;
+}
+
+.entryDetails .profile-name {
+  margin-right: 8px;
+}
+
+form li input,form select.batch,form select.date,form select.time {
+  width: 350px;
+  padding: 8px;
+  font-size: 14px;
+  margin-left: 85px;
+}
+
+form li {
+  margin-bottom: 28px;
+}
+
+input.password {
+  margin-left: 95px;
+}
+
+input.technical {
+  margin-left: 78px;
+}
+
+input.region {
+  margin-left: 100px;
+}
+
+form select.batch {
+  width: 395px;
+  margin-left: 115px;
+}
+
+form select.date {
+  width: 132px;
+  margin-left: 13px;
+}
+
+form select.time {
+  width: 245px;
+  margin-left: 10px;
+}
+
+.key,.excel,.filter {
+  display: inline-block;
+  border: 2px solid #dcdcdc;
+  padding: 6px 21px;
+  color: #a9a9a9;
+  font-size: 19px;
+  border-left: none;
+}
+
+span.aptitude {
+  color: #00bfff;
+  ;
+}
+
+span.filter {
+  padding: 4px 10px;
+  border-left: 1px solid #dcdcdc;
+  font-size: 12px;
+}
+
+#excel-form .excel {
+  color: #00bfff;
+}
+
+.generateReport,.save,.close {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    left: 15px;
+    font: 17px "Arial";
+    width: 135px;
+    margin: 10px;
+}
+
+.save ,.close {
+      position: initial;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.close {
+  background: #f5f5f5;
+  color: black;
+}
+
+.separator {
+  height: 1px;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 9px;
+  background-color: black;
+}
+
+footer .filter {
+  font-size: 18px;
+  border: none;
+}
+
+span.copyright {
+  float: right;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.progress-modal {
+  position: fixed;
+  top: 150px;
+  left: 500px;
+  width: 540px;
+  height: 260px;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  background-color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.progress-modal h3 {
+  margin-bottom: 30px;
+  font: 24px Arial;
+}
+
+.progress-modal .download-status,.progress-modal .progress-status {
+  text-align: center;
+  color: #00bfff;
+  margin-top: 5px;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.progress-bar {
+  margin-bottom: 10px;
+}
+
+.progress-modal .cancel {
+  padding: 10px 30px;
+  display: inline-block;
+  background: #f5f5f5;
+  font: 16px Arial;
+  border: 1px solid black;
+  margin-top: 45px;
+}
+
+.progress-modal .overall-progress,.progress-modal .overall-download {
+  height: 28px;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+}
+
+.progress-modal .completed-progress,.progress-modal .completed-download {
+  height: inherit;
+  border-radius: 5px;
+  width: 30%;
+  background-color: #00ff00;
+}
+
+.progress-modal .completed-download {
+  width: 10%;
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+span.refresh {
+  float: right;
+  margin: 20px;
+  font-size: 15px;
+  padding: 5px 15px;
+  border-left: 2px solid #dcdcdc;
+  color: #00bfff;
+}
+
+#excel-form input {
+  margin-left:0px;
+  width: 200px;
+}
+
+.output{
+  float: right;
+  margin-right: 160px
+}
+#login-form,#excel-form{
+  margin:85px 45px;
+  margin-bottom:40px;
+}
+#excel-form select.batch {
+  width: 220px;
+  float: right;
+  margin-right: 220px;
+}

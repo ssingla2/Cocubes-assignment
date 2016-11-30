@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> CoCubes Assessment Tool</title>
+  <link href="..//fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+<!-- Header CoCubes -->
+  <header>
+    <span class="link"><i class="icon-link"></i></span>
+    <h1>CoCubes Assessment Tool</h1>
+    <div class="openClose"><span class="minus"><i class="icon-minus"></i></span>
+      <span class=""><i class="icon-remove"></i>
+        </span>
+    </div>
+  </header>
+<!-- Header CoCubes -->
+<!-- Container Form -->  
+  <div class="container settings">
+    <aside>
+      <ul>
+        <li class='active login'>Login Credentials</li>
+        <li class="excel-settings">Excel Settings</li>
+        <li>General Settings</li>
+      </ul>
+    </aside>
+    <section class="entryDetails">
+      <form id="login-form">
+        <div class="profile-photo"></div>
+        <ul>
+          <li>
+            <label>User Name</label>
+            <input type="text" name="user-name" value="username" placeholder="Please enter user name">
+          </li>
+          <li>
+            <label>Password</label>
+            <input class="password" value="admin123456789" type="password" name="password"
+            placeholder="Please enter password">
+          </li>
+        </ul>
+      </form>
+      <form id="excel-form" class="hide">
+        <ul>
+          <li>
+            <label>Output File Path</label>
+            <div class="output">
+            <input type="text" name="filePath" placeholder="C:\Users\Ranjit\Documents"><span class="excel"><i class="icon-upload"></i></span></div>
+          </li>
+          <li>
+            <label>Merge Headers</label>
+            <select class="batch">
+              <option value="no">No</option>
+              <option value="yes">Yes</option>
+            </select>
+          </li>
+          <li>
+            <label>Save Excel Format</label>
+            <select class="batch">
+              <option value="2007">Excel 2007 and Above</option>
+              <option value="2008">Excel 2007 and Above</option>
+            </select>
+          </li>
+          <li>
+            <label>Filtering Option</label>
+            <select class="batch">
+              <option value="allow">Allow filter</option>
+              <option value="dontAllow">Don't Allow filter</option>
+            </select>
+          </li>
+          <li>
+            <label>Merge Preference</label>
+            <select class="batch">
+              <option value="include">Include records of primary sheet
+              </option>
+              <option value="exclude">Exclude records of primary sheet
+              </option>
+            </select>
+          </li>
+          <li>
+            <label>Clean Data</label>
+            <select class="batch">
+              <option value="no">No</option>
+              <option value="yes">Yes</option>
+            </select>
+          </li>
+          <li>
+            <label>Include Annotation</label>
+            <select class="batch">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+            </select>
+          </li>
+          <li>
+            <label>Valid Sheets</label>
+            <select class="batch">
+              <option value="stop">Stop an error</option>
+              <option value="start">Start an error</option>
+            </select>
+          </li>
+          <li>
+            <label>National Percentile</label>
+            <select class="batch">
+              <option value="no-include">Do not include</option>
+              <option value="no-excude">Include</option>
+            </select>
+          </li>
+
+        </ul>
+      </form>
+      <div class="separator"></div>
+      <div class="save">Save</div>
+      <div class="close">Close</div> <span class="filter refresh"><i class="icon-refresh"></i></span>
+    </section>
+  </div>
+<!-- Container Form -->  
+<!-- Footer CoCubes -->
+  <footer><span class="filter"><a href="settings.html"><i class="icon-wrench"></i></a></span>
+    <span class="filter"><i class="icon-briefcase"></i>
+      </span><span class="copyright">&copy; 2015 CoCubes Technologies Pvt. Ltd.</span>
+  </footer>
+<!-- Footer CoCubes -->  
+</body>
+<script src="../js/libraries/jquery-3.1.1.min.js" type="text/javascript"
+charset="utf-8"></script>
+<script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>

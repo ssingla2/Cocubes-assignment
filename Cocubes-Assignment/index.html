@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title> CoCubes Assessment Tool</title>
+    <!-- Font-Awesome-Icons -->
+    <link href="_assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <!-- Font-Awesome-Icons -->
+    <link rel="stylesheet" type="text/css" href="_assets/css/main.css">
+  </head>
+  <body>
+  <!-- Header CoCubes -->
+    <header>
+      <span class="link"><i class="icon-link"></i></span>
+      <h1>CoCubes Assessment Tool</h1>
+      <div class="openClose"><span class="minus"><i class="icon-minus"></i></span><span class=""><i class="icon-remove"></i></span></div>
+    </header>
+  <!-- Header CoCubes -->
+  <!-- Container Form --> 
+    <div class="container">
+      <aside>
+        <ul>
+          <li class="active">Electronics</li>
+          <li>Electrical</li>
+          <li>Computer Science</li>
+          <li>Mechanical</li>
+        </ul>
+      </aside>
+      <section class="entryDetails">
+        <div class="profile"><span class="profile-name">Welcome Sujith Sateesh</span><span class="profile-photo"></span></div>
+        <form id="skillMatrix">
+          <ul>
+            <li><label>Aptitude</label> <input type="text" name="aptitude" placeholder="Please enter passkey or enter excel file"><span class="key aptitude"><i class="icon-key"></i></span><span class="excel aptitude"><i class="icon-upload"></i></span></li>
+            <li><label>Technical</label> <input class="technical" type="password" name="technical" placeholder="Please enter passkey"><span class="key"><i class="icon-key"></i></span></li>
+            <li><label>Region</label> <input type="filter" class="region" name="region" placeholder="Please enter a value"><span class="key"><i class="icon-home"></i></span></li>
+            <li>
+              <label>Batch</label> 
+              <select class="batch">
+                <option value="Any">-- Any Value --</option>
+                <option value="">2011 Batch</option>
+                <option value="">2012 Batch</option>
+                <option value="">2013 batch</option>
+              </select>
+              <span class="filter"><i class="icon-filter"></i></span>
+            </li>
+            <li>
+              <label>Assessment Date</label> 
+              <select class="date">
+                <option value="Any">-- Any Value --</option>
+                <option value="">2011 Batch</option>
+                <option value="">2012 Batch</option>
+                <option value="">2013 batch</option>
+              </select>
+              <input type="time" class="datetime" name="time">
+              <span class="filter"><i class="icon-filter"></i></span>
+            </li>
+          </ul>
+        </form>
+        <div class="separator"></div>
+        <div class="generateReport">Generate Report</div>
+      </section>
+    </div>
+    <!-- Container Form -->  
+    <!-- Footer CoCubes -->
+    <footer><span class="filter"><a href="_assets/html/settings.html"><i class="icon-wrench"></i></a></span><span class="filter"><i class="icon-briefcase"></i></span><<span class="copyright">&copy; 2015 CoCubes Technologies Pvt. Ltd.</span></footer>
+    <!-- Footer CoCubes -->
+
+    <!-- Progress Task Modal -->
+
+    <div class="progress-modal hide">
+      <h3>Stage 1 of 3</h3>
+      <div class="progress-bar">
+        <div class="overall-progress">
+          <div class="completed-progress"></div>
+        </div>
+        <div class="progress-status">Overall Progress</div>
+      </div>
+      <div class="downloaded-bar">
+        <div class="overall-download">
+          <div class="completed-download"></div>
+        </div>
+        <div class="download-status">
+          Downloaded 16KB of 80KB for Aptitude
+        </div>
+      </div>
+      <div class="cancel">Cancel</div>
+    </div>
+
+    <!-- Progress Task Modal -->
+
+  </body>
+  <script src="_assets/js/libraries/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="_assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>
